@@ -11,7 +11,7 @@ if (hourNow > 18) {
     greeting = 'Good morning!';
   } 
   var name = prompt("What is your name?");
-  document.write( greeting + name +"!" );
+  document.write( "<h4>" + greeting + name +"!" + "</h4>");
   var welcome;
   var confirmation = prompt("Did you visit jordan before ?,please answer yes or no?");
  if (confirmation === "yes" )
@@ -21,4 +21,4 @@ if (hourNow > 18) {
 } else {
     welcome ="Even if you can't answer a yes or no question you are welcome here  <3 "
 }
-document.write(welcome)
+document.write( "<h4>"+ welcome) + "</h4>";
