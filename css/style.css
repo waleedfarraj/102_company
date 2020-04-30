@@ -18,4 +18,5 @@ img{block-size: 400px;}
 li{
   color: darkslategray;
     text-align-last: right;
+    display: inline;
 }
