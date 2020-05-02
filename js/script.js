@@ -36,8 +36,9 @@ function vaildation(){
   var usrinput = "";
   while ( usrinput !== "yes" ){
     usrinput = prompt("are you excited to visit jordan ?you can only answer yes !")
-  if (usrinput == 'yes')
-    break; 
+//  if (usrinput == "yes")
+   // break; 
+    //else usrinput = prompt("are you excited to visit jordan ?you can only answer yes !")
   }
 return usrinput;
 }
