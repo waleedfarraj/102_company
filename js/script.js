@@ -1,5 +1,5 @@
 "use strict";
-
+function getTime(){
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -10,8 +10,15 @@ if (hourNow > 18) {
   } else if (hourNow >= 0) {
     greeting = 'Good morning!';
   } 
-  var name = prompt("What is your name?");
-  document.write( "<h4>" + greeting + name +"!" + "</h4>");
+ 
+return greeting ;
+
+}
+function getName(){
+var name = prompt("What is your name?");
+return name
+}
+function hala(){
   var welcome;
   var confirmation = prompt("Did you visit jordan before ?,please answer yes or no?");
  if (confirmation === "yes" )
@@ -21,4 +28,5 @@ if (hourNow > 18) {
 } else {
     welcome ="Even if you can't answer a yes or no question you are welcome here  <3 "
 }
-document.write( "<h4>"+ welcome) + "</h4>";
+return welcome;
+}
