@@ -48,7 +48,7 @@ function k()
    item ='<img src="https://1.bp.blogspot.com/-twYs6GQdKdQ/Vh8API1rZ8I/AAAAAAAAAtU/OSQI-p1zChM/s1600/Kunafa-traditional-arabic-dessert-cuisine-everyday-arabic-recipe.jpg">';
  
 
-  for ( var i=0 ; i<kay ; i=i+1) {
+  for ( var i=1 ; i<kay ; i=i+1) {
 item = item +'<img src="https://1.bp.blogspot.com/-twYs6GQdKdQ/Vh8API1rZ8I/AAAAAAAAAtU/OSQI-p1zChM/s1600/Kunafa-traditional-arabic-dessert-cuisine-everyday-arabic-recipe.jpg">';
   }
   console.log (item)
